@@ -32,7 +32,7 @@ The build step will place the bundled scripts into the <body> tag.
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('service-worker.js').catch(function(ex) {
             console.warn(ex);
-            console.warn('(This warning can be safely ignored outside of the production build.)');
+            console.warn('(if you are outside of the production build,you can safely ignored the warnig.)');
         });
     }
 </script>
